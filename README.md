@@ -25,7 +25,6 @@ Vamos a explorar cada uno de estos pilares para construir una base sólida sobre
 - **`HTML/`**: Contiene ejemplos y ejercicios relacionados con HTML.
 - **`CSS/`**: Incluye estilos y ejemplos de CSS para personalizar el diseño.
 - **`JS/`**: Código y ejercicios de JavaScript para agregar interactividad a las páginas.
-- **`assets/`** (opcional): Recursos estáticos como imágenes y fuentes utilizados en el curso.
 - **`README.md`**: Documentación y guías para los estudiantes.
 
 ## Cómo Utilizar Este Repositorio
