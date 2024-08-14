@@ -6,6 +6,6 @@ Para empezar debemos comprender los 3 pilares fundamentales de la web:
 
 1) HTML
 2) CSS
-3) JavaScript
+3) JavaScript 
 
 Vamos a ir aprendiendo uno por uno para tener una base sólida con la cual trabajar.
