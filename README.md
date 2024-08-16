@@ -16,7 +16,7 @@ Para empezar, debemos comprender los tres pilares fundamentales de la web:
 
 1. [**HTML**](HTML/): La estructura básica de las páginas web.
 2. [**CSS**](CSS/): El estilo y diseño visual de las páginas web.
-3. [**JavaScript**](JS/): La interactividad y lógica de las páginas web.
+3. [**JavaScript**](src/jS/): La interactividad y lógica de las páginas web.
 
 Vamos a explorar cada uno de estos pilares para construir una base sólida sobre la cual trabajar y avanzar en el desarrollo de aplicaciones web.
 
