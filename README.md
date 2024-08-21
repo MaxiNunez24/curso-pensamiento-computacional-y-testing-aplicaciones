@@ -14,9 +14,9 @@ Este repositorio contiene todos los materiales del curso, incluyendo:
 
 Para empezar, debemos comprender los tres pilares fundamentales de la web:
 
-1. [**HTML**](SRC/HTML/): La estructura básica de las páginas web.
-2. [**CSS**](SRC/CSS): El estilo y diseño visual de las páginas web.
-3. [**JavaScript**](SRC/JS): La interactividad y lógica de las páginas web.
+1. [**HTML**](src/HTML/): La estructura básica de las páginas web.
+2. [**CSS**](src/CSS): El estilo y diseño visual de las páginas web.
+3. [**JavaScript**](src/JS): La interactividad y lógica de las páginas web.
 
 Vamos a explorar cada uno de estos pilares para construir una base sólida sobre la cual trabajar y avanzar en el desarrollo de aplicaciones web.
 
