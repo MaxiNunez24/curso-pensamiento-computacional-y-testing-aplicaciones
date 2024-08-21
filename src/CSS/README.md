@@ -1,4 +1,4 @@
-# CSS (Cascading Style Sheets / Hojas de Estilo en Cascada)
+# CSS (Cascading Style Sheets / *Hojas de Estilo en Cascada*)
 
 CSS es un lenguaje de diseño/estilado declarativo para describir la presentación de un documento, en nuestro caso, HTML.
 
