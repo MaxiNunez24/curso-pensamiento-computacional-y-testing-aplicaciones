@@ -61,8 +61,3 @@ Crea una tarjeta de perfil para un usuario que incluya una imagen, nombre y una 
 ```
 
 Estos ejercicios te ayudarán a aplicar los conceptos de CSS que has aprendido y a mejorar tus habilidades en diseño web.
-```
-
----
-
-¿Cómo te parece este formato para los ejercicios y tareas? ¿Algún ajuste o ejercicio adicional que quieras incluir?
