@@ -1,14 +1,16 @@
+[Volver al inicio](../../../)
+[Volver a CSS](../) 
 # Guía de Introducción a Flexbox
 
 ## 1. ¿Qué es Flexbox?
 
-Flexbox, o "Flexible Box Layout", es un modelo de diseño de CSS que facilita la distribución de elementos en un contenedor, especialmente cuando se trata de distribuir espacio y alinear elementos de manera flexible y eficiente. Es ideal para crear layouts que se adapten a diferentes tamaños de pantalla y resoluciones.
+**Flexbox**, o *"Flexible Box Layout"*, es un **modelo de diseño** de CSS que facilita la **distribución de elementos** en un **contenedor**, especialmente cuando se trata de distribuir espacio y **alinear elementos de manera flexible** y eficiente. Es ideal para crear **layouts** que se **adapten** a diferentes tamaños de pantalla y resoluciones.
 
 ## 2. Contenedor Flex y Elementos Flex
 
 ### 2.1. Definir un Contenedor Flex
 
-Para convertir un contenedor en un contenedor Flex, se debe aplicar la propiedad `display: flex;` al elemento padre.
+Para convertir un contenedor en un **contenedor Flex**, se debe aplicar la propiedad `display: flex;` al elemento padre.
 
 ```css
 .contenedor {
@@ -27,11 +29,11 @@ Para convertir un contenedor en un contenedor Flex, se debe aplicar la propiedad
 
 Controla cómo se distribuyen los elementos a lo largo del eje principal.
 
-- `flex-start`: Los elementos se alinean al inicio del contenedor.
-- `flex-end`: Los elementos se alinean al final del contenedor.
-- `center`: Los elementos se alinean en el centro del contenedor.
-- `space-between`: Los elementos se distribuyen uniformemente con el primer elemento alineado al principio y el último al final.
-- `space-around`: Los elementos se distribuyen uniformemente con espacios iguales alrededor de cada elemento.
+- `flex-start`: Los elementos se alinean al **inicio** del contenedor.
+- `flex-end`: Los elementos se alinean al **final** del contenedor.
+- `center`: Los elementos se alinean en el **centro** del contenedor.
+- `space-between`: Los elementos se **distribuyen uniformemente** con el primer elemento alineado al principio y el último al final.
+- `space-around`: Los elementos se **distribuyen uniformemente** con **espacios iguales** alrededor de cada elemento.
 
 ```css
 .contenedor {
@@ -44,11 +46,11 @@ Controla cómo se distribuyen los elementos a lo largo del eje principal.
 
 Controla cómo se alinean los elementos a lo largo del eje transversal.
 
-- `flex-start`: Los elementos se alinean al inicio del eje transversal.
-- `flex-end`: Los elementos se alinean al final del eje transversal.
-- `center`: Los elementos se alinean en el centro del eje transversal.
-- `baseline`: Los elementos se alinean según su línea base de texto.
-- `stretch`: Los elementos se estiran para llenar el contenedor.
+- `flex-start`: Los elementos se alinean al **inicio** del eje transversal.
+- `flex-end`: Los elementos se alinean al **final** del eje transversal.
+- `center`: Los elementos se alinean en el **centro** del eje transversal.
+- `baseline`: Los elementos se alinean **según su línea base** de texto.
+- `stretch`: Los elementos **se estiran para llenar** el contenedor.
 
 ```css
 .contenedor {
@@ -61,10 +63,10 @@ Controla cómo se alinean los elementos a lo largo del eje transversal.
 
 Define la dirección del eje principal.
 
-- `row`: Los elementos se organizan en una fila horizontal (valor predeterminado).
-- `row-reverse`: Los elementos se organizan en una fila horizontal en orden inverso.
-- `column`: Los elementos se organizan en una columna vertical.
-- `column-reverse`: Los elementos se organizan en una columna vertical en orden inverso.
+- `row`: Los elementos se organizan en una **fila horizontal** ***(valor predeterminado)***.
+- `row-reverse`: Los elementos se organizan en una **fila horizontal en orden inverso**.
+- `column`: Los elementos se organizan en una **columna vertical**.
+- `column-reverse`: Los elementos se organizan en una **columna vertical en orden inverso**.
 
 ```css
 .contenedor {
@@ -77,9 +79,9 @@ Define la dirección del eje principal.
 
 Determina si los elementos deben ajustarse o no cuando el contenedor es más pequeño que la suma de los elementos.
 
-- `nowrap`: Los elementos no se ajustan (valor predeterminado).
-- `wrap`: Los elementos se ajustan a la siguiente línea si es necesario.
-- `wrap-reverse`: Los elementos se ajustan a la siguiente línea en orden inverso.
+- `nowrap`: Los elementos **no se ajustan** ***(valor predeterminado)***.
+- `wrap`: Los elementos **se ajustan a la siguiente línea si es necesario**.
+- `wrap-reverse`: Los elementos **se ajustan a la siguiente línea en orden inverso**.
 
 ```css
 .contenedor {
@@ -92,12 +94,12 @@ Determina si los elementos deben ajustarse o no cuando el contenedor es más peq
 
 Controla el espaciado entre las líneas de elementos en un contenedor cuando hay espacio adicional en el eje transversal.
 
-- `flex-start`: Las líneas se alinean al inicio del eje transversal.
-- `flex-end`: Las líneas se alinean al final del eje transversal.
-- `center`: Las líneas se alinean en el centro del eje transversal.
-- `space-between`: Las líneas se distribuyen uniformemente con el primer y último línea alineadas a los bordes.
-- `space-around`: Las líneas se distribuyen uniformemente con espacio igual alrededor de cada línea.
-- `stretch`: Las líneas se estiran para llenar el espacio disponible.
+- `flex-start`: Las líneas **se alinean al inicio** del eje transversal.
+- `flex-end`: Las líneas **se alinean al final** del eje transversal.
+- `center`: Las líneas **se alinean en el centro** del eje transversal.
+- `space-between`: Las líneas **se distribuyen uniformemente** con el primer y último línea alineadas a los bordes.
+- `space-around`: Las líneas **se distribuyen uniformemente con espacio igual** alrededor de cada línea.
+- `stretch`: Las líneas **se estiran para llenar** el espacio disponible.
 
 ```css
 .contenedor {

@@ -1,9 +1,11 @@
-# HTML (HyperText Markup Language / Lenguaje de Marcado de HyperTexto)
+[**Volver al inicio**](../../)
+
+# HTML (HyperText Markup Language / *Lenguaje de Marcado de HyperTexto*)
 
 ## 1. ¿Qué es HTML?
 
 Es el **lenguaje estándar** utilizado para crear páginas web. HTML define la **estructura básica** de un sitio web utilizando **elementos** y **etiquetas** que permiten organizar y mostrar **contenido** como *texto*, *imágenes*, *videos*, *enlaces*, *formularios*, y más.
-**No es un lenguaje de programación**, *como si lo es **JavaScript***, **Ni de estilado**, *como si lo es **CSS***,  por lo que sólo vamos a "marcar", describir o estructurar nuestra página con él.
+**No es un lenguaje de programación**, *como si lo es **[JavaScript](../JS)***, **Ni de estilado**, *como si lo es **[CSS](../CSS/)***,  por lo que sólo vamos a "marcar", describir o estructurar nuestra página con él.
 
 ## 2. Un Poco de Historia 
 
@@ -17,7 +19,7 @@ HTML utiliza una serie de **etiquetas** que están delimitadas por `<` y `>`. Es
 <etiqueta>Contenido</etiqueta>
 ```
 
-![Estructura Elementos HTML](../../assets/images/estructura-elemento-HTML.jpg)
+![Estructura Elementos HTML](../images/estructura-elemento-HTML.jpg)
 
 Por ejemplo, un párrafo en HTML se escribiría así:
 
