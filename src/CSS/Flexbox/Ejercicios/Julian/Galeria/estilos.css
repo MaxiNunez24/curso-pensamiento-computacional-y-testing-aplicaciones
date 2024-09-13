@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    background: chartreuse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.item {
+    background-color: brown;
+    padding: 5px;
+    min-width: 50px;
+    border: 2px solid #000;
+    font-size: large;
+
+}
+
+.item img {
+    width: 200px;
+    height: 100%;
+    object-fit: contain;
+
+}

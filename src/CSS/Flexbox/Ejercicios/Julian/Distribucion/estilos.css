@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    background: chartreuse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background-color: brown;
+    padding: 15px;
+    min-width: 50px;
+    text-align: center;
+    border: 2px solid #000;
+    font-size: large;
+
+}
