@@ -1,0 +1,58 @@
+body {
+    background: #001;
+    margin: 0;
+    font-size: 20px;
+}
+
+.header {
+    background: #ec0505;
+}
+
+.main {
+    background: #2c0be6;
+}
+
+.aside {
+    background: #aed114
+}
+
+footer {
+    background: #666;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.container>* {
+    padding: 30px;
+    flex: 1 100%;
+}
+
+@media (width>600px) {
+    .aside {
+        flex: 1 0;
+    }
+}
+
+@media (width>800px) {
+    .main {
+        flex: 3;
+        order: 2;
+    }
+
+    .aside1 {
+        order: 1;
+    }
+
+    .aside2 {
+        order: 3;
+    }
+
+    .footer {
+        order: 4;
+    }
+}

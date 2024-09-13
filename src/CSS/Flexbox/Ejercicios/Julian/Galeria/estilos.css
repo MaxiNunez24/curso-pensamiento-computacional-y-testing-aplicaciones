@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    gap: 0px;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+}
+
+.container img {
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .5s ease;
+}
+
+body {
+    background: rgba(160, 77, 9, 0.815);
+    margin: 5vh 5vw;
+}
+
+.container img:hover {
+    cursor: crosshair;
+    opacity: 1;
+    width: 300px;
+    filter: contrast(120%);
+}
+
+@media (width < 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+
+
+
+    .container img {
+        height: 0%;
+        width: 90vw;
+    }
+
+    .container img:hover {
+        width: 90vw;
+        height: 60vh;
+    }
+
+}
