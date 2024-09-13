@@ -6,29 +6,20 @@ body {
 }
 
 .container {
+    background: #2b00ff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    background: #2b00ff;
-    padding: 10px;
+    padding: 20px;
     flex-wrap: wrap;
 }
 
 .item {
     background: #ff5151;
-    padding: 5px;
+    padding: 20px;
     min-width: 50px;
     text-align: center;
-    border: 2px solid #000
-}
-
-@media all and (max-width: 260px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .item {
-        min-width: 100px;
-    }
+    border: 2px solid #000;
+    width: fit-content;
 }
