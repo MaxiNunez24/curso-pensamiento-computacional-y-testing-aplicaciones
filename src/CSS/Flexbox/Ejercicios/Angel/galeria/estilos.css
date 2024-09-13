@@ -1,0 +1,51 @@
+body {
+    background-color: brown;
+
+
+
+}
+
+.conteiner {
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    gap: 10px;
+
+
+}
+
+.conteiner img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+
+    transition: .5 ease;
+
+}
+
+.conteiner img:hover {
+    cursor: crosshair;
+    opacity: 1;
+    width: 300px;
+    filter: contrast(120%);
+
+}
+
+@media (width<600px) {
+    .conteiner {
+        flex-direction: column;
+    }
+
+    .conteiner img {
+        height: 0px;
+        width: 90vw;
+    }
+
+    .conteiner img:hover {
+        height: 60vh;
+        width: 90vw;
+    }
+
+
+}
