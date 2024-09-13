@@ -3,12 +3,12 @@ body {
     margin: 5vh 5vw;
 }
 
-
 .container {
     display: flex;
     width: 90vw;
     height: 90vh;
     margin: auto;
+    gap: 5px
 }
 
 .container img {
