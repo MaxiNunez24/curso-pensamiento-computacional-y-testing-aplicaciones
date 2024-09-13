@@ -1,0 +1,43 @@
+body {
+    background: #000;
+    margin: 5vh 5vw;
+}
+
+
+.container {
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
+
+.container img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.container img:hover {
+    cursor: crosshair;
+    opacity: 1;
+    width: 300px;
+    filter: contrast(120%);
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container img {
+        height: 0px;
+        width: 90vw;
+    }
+
+    .container img:hover {
+        width: 90vw;
+        height: 60vh;
+    }
+}
