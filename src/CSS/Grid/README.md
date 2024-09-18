@@ -130,8 +130,8 @@ Utiliza CSS Grid para crear un tablero de ajedrez con 8x8 casillas, alternando l
 
 ## 7. Recursos adicionales
 - [CSS Grid en MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout)
-- [Grid Garden](https://cssgridgarden.com/)
 - [CSS Tricks: Guía completa de CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Grid Garden](https://cssgridgarden.com/)
 
 ## 8. FAQ
 
