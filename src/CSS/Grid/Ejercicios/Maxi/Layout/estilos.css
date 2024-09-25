@@ -7,7 +7,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
         "header header header header header"
         "aside1 main main main aside2"
@@ -48,7 +48,6 @@ body {
 
 @media screen and (width < 800px) {
     .container {
-        grid-template-rows: 1fr 4fr 1fr 1fr;
         grid-template-areas:
             "header header header header"
             "main main main main"
@@ -59,7 +58,6 @@ body {
 
 @media screen and (width < 400px) {
     .container {
-        grid-template-rows: 1fr 4fr 1fr 1fr 2fr;
         grid-template-areas:
             "header "
             "main"
