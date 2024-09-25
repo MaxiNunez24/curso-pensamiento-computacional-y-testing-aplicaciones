@@ -19,7 +19,7 @@ HTML utiliza una serie de **etiquetas** que están delimitadas por `<` y `>`. Es
 <etiqueta>Contenido</etiqueta>
 ```
 
-![Estructura Elementos HTML](../images/estructura-elemento-HTML.jpg)
+![Estructura Elementos HTML](images/estructura-elemento-HTML.jpg)
 
 Por ejemplo, un párrafo en HTML se escribiría así:
 
