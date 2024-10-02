@@ -1,0 +1,24 @@
+body {
+    background-image: url("img/5.jpg");
+    margin: 0;
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+}
+
+.contenedor>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s linear;
+}
+
+.contenedor>img:hover {
+    transform: scale(1.2);
+
+
+}
