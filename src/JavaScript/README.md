@@ -9,18 +9,17 @@ JavaScript se puede ejecutar en cualquier navegador web moderno. También se pue
 ## Primeros pasos con JavaScript en el navegador
 Puedes empezar a programar en JavaScript directamente desde la consola del navegador. Para abrir la consola:
 1. Abre tu navegador (Chrome, Firefox, etc.).
-2. Haz clic derecho en cualquier parte de la página y selecciona "Inspeccionar" o "Inspect".
-3. Ve a la pestaña "Consola" o "Console".
+2. Abre una página en blanco buscando "`about:blank`" en la barra de direcciones.
+3. Haz clic derecho en cualquier parte de la página y selecciona "`Inspeccionar`" o "`Inspect`".
+4. Ve a la pestaña "`Consola`" o "`Console`".
 
 ## Tipos de datos en JavaScript
 JavaScript tiene varios tipos de datos básicos:
-- **Números**: `42`, `3.14`
-- **Cadenas de texto**: `"Hola, mundo!"`
-- **Booleanos**: `true`, `false`
-- **Arreglos**: `[1, 2, 3]` // Lista de elementos
-- **Objetos**: `{ nombre: "Juan", edad: 30 }` // Pares clave-valor
-- **Null**: `null`
-- **Undefined**: `undefined`
+- **Number**: `42`, `3.14` (Números) -> se utilizan para almacenar números
+- **String**: `"Hola, mundo!"` (Cadena de Texto) -> se utilizan para almacenar texto
+- **Boolean**: `true`, `false` (Verdadero o falso) -> se utilizan para tomar decisiones
+- **Null**: `null` (Valor nulo) -> representa la ausencia de valor
+- **Undefined**: `undefined` (Valor no definido) -> representa una variable que no ha sido asignada
 
 ## Variables
 Puedes declarar variables (también llamadas "enlaces") usando `var`, `let` o `const`.
@@ -73,7 +72,10 @@ console.log(!y); // true, porque la negación de false es true
 ## Estructuras de datos
 ### Arreglos
 ```javascript
-let frutas = ["manzana", "banana", "naranja"];
+// Declaración de un arreglo
+let frutas = ["manzana", "banana", "naranja"]; 
+
+// Acceder a un elemento del arreglo
 console.log(frutas[0]); // manzana
 console.log(frutas[1]); // banana
 console.log(frutas[2]); // naranja
@@ -81,12 +83,14 @@ console.log(frutas[2]); // naranja
 
 ### Objetos
 ```javascript
-let persona = {
-    nombre: "Juan",
+// Declaración de un objeto
+let persona = { // Un objeto tiene propiedades
+    nombre: "Juan", // Propiedad: valor
     edad: 30,
     casado: false
 };
 
+// Acceder a una propiedad del objeto
 console.log(persona.nombre); // Juan
 console.log(persona.edad); // 30
 console.log(persona.casado); // false
@@ -95,9 +99,11 @@ console.log(persona.casado); // false
 ## Operadores de incremento y decremento
 ```javascript
 let i = 5;
-console.log(i++); // 5, imprime i y luego incrementa
+// Post-incremento
+console.log(i++); // 5, imprime i y luego incrementa -> es equivalente a i = i + 1
 console.log(i); // 6
-console.log(++i); // 7, incrementa i y luego imprime
+// Pre-incremento
+console.log(++i); // 7, incrementa i y luego imprime -> es equivalente a i = i + 1
 console.log(i); // 7
 ```
 
@@ -124,20 +130,27 @@ for (let i = 0; i < 5; i++) { // Inicialización; condición; incremento
 let i = 0;
 while (i < 5) { // Mientras i sea menor a 5
     console.log(i); // Imprime el valor de i en la consola
-    i++; // Incrementa i (Es equivalente a i = i + 1) -> evita un bucle infinito
+    i++; // Incrementa i -> evita un bucle infinito
 }
 ```
 
 ## Funciones
 Las funciones son bloques de código reutilizables.
+Un ejemplo que venimos usando hasta ahora: `console.log("Hola, Mundo!")`. -> `console.log` es una función que imprime lo que le pasamos como argumento en la consola.
 
 ```javascript
-function saludar(nombre) {
-    return "Hola, " + nombre;
-}
+function saludar(nombre) { // Declaración de una función llamada "saludar" con un parámetro "nombre"
+    return "Hola, " + nombre; // Devuelve un saludo con el nombre pasado como argumento
+} 
 
-console.log(saludar("Juan"));
-```
+
+console.log(saludar("Juan")); // Llama a la función "saludar" con el argumento "Juan"
+// Imprime en la consola "Hola, Juan"
+
+``` 
+### Cuál es la diferencia entre argumento y parámetro?
+- **Parámetro**: es el nombre que se le da a la variable que recibe la función
+- **Argumento**: es el valor que se le pasa a la función
 
 ## Ejercicios
 1. **Hola, Mundo!**: Escribe un programa que imprima "Hola, Mundo!" en la consola.
