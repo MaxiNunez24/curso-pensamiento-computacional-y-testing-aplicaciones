@@ -1,0 +1,15 @@
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background: #690f8d;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.item {
+    background: #e42ef5;
+    padding: 20px;
+    min-width: 50px;
+    text-align: center;
+    border: 2px solid #000}
