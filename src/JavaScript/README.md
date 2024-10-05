@@ -55,17 +55,17 @@ let modulo = 5 % 3; // 2 (resto de la división)
 ### Comparación
 ```javascript
 // Variables
-let a = 5;
-let b = 10;
+let a = 5
+let b = 10
 // Operadores de comparación
-console.log(a == b); // false, porque 5 no es igual a 10
-console.log(a != b); // true, porque 5 no es diferente de 10
-console.log(a === b); // false, porque 5 no es estrictamente igual a 10
-console.log(a !== b); // true, porque 5 no es estrictamente diferente de 10
-console.log(a < b); // true, porque 5 es menor que 10
-console.log(a > b); // false, porque 5 no es mayor que 10
-console.log(a <= b); // true, porque 5 es menor o igual a 10
-console.log(a >= b); // false, porque 5 no es mayor o igual a 10
+a == b; // false, porque 5 no es igual a 10
+a != b // true, porque 5 no es diferente de 10
+a === b // false, porque 5 no es estrictamente igual a 10
+a !== b // true, porque 5 no es estrictamente diferente de 10
+a < b // true, porque 5 es menor que 10
+a > b // false, porque 5 no es mayor que 10
+a <= b // true, porque 5 es menor o igual a 10
+a >= b // false, porque 5 no es mayor o igual a 10
 ```
 
 ### Lógicos
@@ -75,20 +75,20 @@ let x = true;
 let y = false;
 
 // Operadores lógicos
-console.log(x && y); // false, porque true y false es false
-console.log(x || y); // true, porque true o false es true
-console.log(!x); // false, porque la negación de true es false
-console.log(!y); // true, porque la negación de false es true
+x && y // false, porque true y false es false
+x || y // true, porque true o false es true
+!x // false, porque la negación de true es false
+!y // true, porque la negación de false es true
 ```
 
 ### Asignación
 ```javascript
 let a = 5;
-a += 3; // a = a + 3 -> 8
-a -= 3; // a = a - 3 -> 5
-a *= 3; // a = a * 3 -> 15
-a /= 3; // a = a / 3 -> 5
-a %= 3; // a = a % 3 -> 2
+a += 3 // a = a + 3 -> 8
+a -= 3 // a = a - 3 -> 5
+a *= 3 // a = a * 3 -> 15
+a /= 3 // a = a / 3 -> 5
+a %= 3 // a = a % 3 -> 2
 ```
 
 ## Diferencia entre Expresión y Sentencia
@@ -102,33 +102,6 @@ a %= 3; // a = a % 3 -> 2
 // Sentencia
 let y = 5; // es una sentencia que asigna el valor 5 a la variable y -> devuelve undefined porque no hay nada que devolver
 
-```
-
-## Estructuras de datos
-### Arreglos
-```javascript
-// Declaración de un arreglo
-let frutas = ["manzana", "banana", "naranja"]; 
-
-// Acceder a un elemento del arreglo
-console.log(frutas[0]); // manzana
-console.log(frutas[1]); // banana
-console.log(frutas[2]); // naranja
-```
-
-### Objetos
-```javascript
-// Declaración de un objeto
-let persona = { // Un objeto tiene propiedades
-    nombre: "Juan", // Propiedad: valor
-    edad: 30,
-    casado: false
-};
-
-// Acceder a una propiedad del objeto
-console.log(persona.nombre); // Juan
-console.log(persona.edad); // 30
-console.log(persona.casado); // false
 ```
 
 ## Operadores de incremento y decremento
@@ -171,7 +144,8 @@ while (i < 5) { // Mientras i sea menor a 5
 
 ## Funciones
 Las funciones son bloques de código reutilizables.
-Un ejemplo que venimos usando hasta ahora: `console.log("Hola, Mundo!")`. -> `console.log` es una función que imprime lo que le pasamos como argumento en la consola.
+Un ejemplo que venimos usando hasta ahora: `console.log("Hola, Mundo!")`. 
+`console.log` es una función que imprime lo que le pasamos como argumento en la consola.
 
 ```javascript
 function saludar(nombre) { // Declaración de una función llamada "saludar" con un parámetro "nombre"
@@ -206,42 +180,261 @@ console.log(cadena.charAt(0)); // H, devuelve el carácter en la posición 0
 console.log(cadena.indexOf("Mundo")); // 6, devuelve la posición de la primera ocurrencia de "Mundo"
 console.log(cadena.slice(0, 4)); // Hola, devuelve una subcadena desde la posición 0 hasta la 4
 console.log(cadena.split(",")); // ["Hola", " Mundo!"], divide la cadena en un arreglo
+console.log(cadena.reverse()); // !odnuM ,aloH, invierte la cadena
+console.log(cadena.replace("Mundo", "Amigo")); // Hola, Amigo!, reemplaza "Mundo" por "Amigo"
+console.log(cadena.includes("Hola")); // true, devuelve true si la cadena contiene "Hola"
+console.log(cadena.startsWith("Hola")); // true, devuelve true si la cadena comienza con "Hola"
+console.log(cadena.endsWith("Mundo!")); // true, devuelve true si la cadena termina con "Mundo!"
+console.log(cadena.trim()); // Hola, Mundo!, elimina los espacios en blanco al principio y al final
+```
+
+
+## Estructuras de datos
+### Arreglos
+```javascript
+// Declaración de un arreglo
+let frutas = ["manzana", "banana", "naranja"]; 
+
+// Acceder a un elemento del arreglo
+console.log(frutas[0]); // manzana
+console.log(frutas[1]); // banana
+console.log(frutas[2]); // naranja
+```
+
+### Objetos
+```javascript
+// Declaración de un objeto
+let persona = { // Un objeto tiene propiedades
+    nombre: "Juan", // Propiedad: valor
+    edad: 30,
+    casado: false
+};
+
+// Acceder a una propiedad del objeto
+console.log(persona.nombre); // Juan
+console.log(persona.edad); // 30
+console.log(persona.casado); // false
 ```
 
 ## Ejercicios
 1. **Hola, Mundo!**: Escribe un programa que imprima "Hola, Mundo!" en la consola.
+    <details><summary>Ver posible posible respuesta</summary>
+    
+    ```javascript
+    console.log("Hola, Mundo!");
+    ```
+    </details>
 
-2. **Suma de dos números**: Escribe una función que reciba dos números y devuelva su suma. 
+2. **Saludar a alguien**: Escribe una función que reciba un nombre y devuelva un saludo.
+    <details><summary>Ver posible respuesta</summary>
+
+    ```javascript
+    function saludar(nombre) {
+        return "Hola, " + nombre;
+    }
+    console.log(saludar("Juan"));
+    ```
+        
+    </details>
 
 3. **Número par o impar**: Escribe un programa que determine si un número es par o impar.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    let numero = 5; // También se puede hacer una función que reciba un número como argumento
 
-4. **Números primos**: Escribe un programa que determine si un número es primo. (Un número primo es aquel que solo es divisible por 1 y por sí mismo).
+    if (numero % 2 === 0) {
+        console.log("El número es par");
+    } else {
+        console.log("El número es impar");
+    }
+    ```
+    </details>
+
+4. **Suma de dos números**: Escribe una función que reciba dos números y devuelva su suma. 
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    function sumar(a, b) {
+        return a + b;
+    }
+
+    console.log(sumar(5, 3));
+    ```
+    </details>
 
 5. **Contar hasta 10**: Escribe un bucle que cuente del 1 al 10 y lo imprima en la consola.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+    ```
+    </details>
+
+5. **Números primos**: Escribe un programa que determine si un número es primo. (Un número primo es aquel que solo es divisible por 1 y por sí mismo).
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    let numero = 7; // También se puede hacer una función que reciba un número como argumento
+    let esPrimo = true, i = 2;
+    while (i < numero && esPrimo) {
+        if (numero % i === 0) esPrimo = false;
+        i++;
+    }
+
+    if (esPrimo) {
+        console.log("El número es primo");
+    } else {
+        console.log("El número no es primo");
+    }
+    ```
+    </details>
 
 6. **Arreglo de nombres**: Crea un arreglo con nombres de personas y escribe un programa que imprima cada nombre en la consola.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    let nombres = ["Juan", "María", "Pedro", "Ana"];
 
-7. **Objeto de persona**: Crea un objeto con las propiedades "nombre", "apellido", "edad" y "casado" e imprime cada propiedad en la consola.
-
-8. **Saludar a una persona**: Escribe una función que reciba un nombre y devuelva un saludo.
-
-9. **Factorial de un número**: Escribe una función que calcule el factorial de un número.
-
-10. **Revertir una cadena**: Escribe una función que reciba una cadena y devuelva la cadena invertida. Por ejemplo, si la cadena es "hola", la función debería devolver "aloh".
-
-11. **Contar vocales**: Escribe una función que cuente el número de vocales en una cadena.
+    for (let i = 0; i < nombres.length; i++) {
+        console.log(nombres[i]);
+    }
+    ```
+    </details>
 
 12. **Máximo de un arreglo**: Escribe una función que reciba un arreglo de números y devuelva el número más grande.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    function maximo(arreglo) {
+        let max = arreglo[0];
+        for (let i = 1; i < arreglo.length; i++) {
+            if (arreglo[i] > max) {
+                max = arreglo[i];
+            }
+        }
+        return max;
+    }
 
-13. **Palíndromo**: Escribe una función que determine si una cadena es un palíndromo.
-
-14. **Fibonacci**: Escribe una función que genere los primeros n números de la secuencia de Fibonacci.
-
-15. **Ordenar un arreglo**: Escribe una función que reciba un arreglo de números y lo ordene de menor a mayor.
-
-16. **Buscar en un arreglo**: Escribe una función que busque un elemento en un arreglo y devuelva su índice.
-
-17. **Eliminar duplicados**: Escribe una función que elimine los elementos duplicados de un arreglo.
+    console.log(maximo([5, 3, 8, 1, 2]));
+    ```
+    </details>
 
 18. **Promedio de un arreglo**: Escribe una función que calcule el promedio de los números en un arreglo.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    function promedio(arreglo) {
+        let suma = 0;
+        for (let i = 0; i < arreglo.length; i++) {
+            suma += arreglo[i];
+        }
+        return suma / arreglo.length;
+    }
+
+    console.log(promedio([5, 3, 8, 1, 2]));
+    ```
+    </details>
+
+16. **Buscar en un arreglo**: Escribe una función que busque un elemento en un arreglo y devuelva su índice.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    function buscar(arreglo, elemento) {
+        let i = 0, pos = -1, encontrado = false;
+        while (i < arreglo.length && !encontrado) {
+            if (arreglo[i] === elemento) {
+                encontrado = true;
+                pos = i;
+            }
+            i++;
+        }
+        return pos;
+    }
+
+    console.log(buscar([5, 3, 8, 1, 2], 8));
+    ```
+    </details>
+
+7. **Objeto de persona**: Crea un objeto con las propiedades "nombre", "apellido", "edad" y "casado" e imprime cada propiedad en la consola.
+    <details><summary>Ver posible posible respuesta</summary>
+    
+    ```javascript
+    let persona = {
+        nombre: "Juan",
+        apellido: "Pérez",
+        edad: 30,
+        casado: false
+    };
+
+    console.log(persona.nombre);
+    console.log(persona.apellido);
+    console.log(persona.edad);
+    console.log(persona.casado);
+    ```
+    </details>
+
+10. **Revertir una cadena**: Escribe una función que reciba una cadena y devuelva la cadena invertida. Por ejemplo, si la cadena es "hola", la función debería devolver "aloh".
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    function invertir(cadena) {
+        return cadena.split("").reverse().join(""); // Divide la cadena en un arreglo, invierte el arreglo y lo une en una cadena
+        // esto es lo mismo que: cadena.reverse()
+    }
+
+    console.log(invertir("hola"));
+    ```
+    </details>
+
+11. **Contar vocales**: Escribe una función que cuente el número de vocales en una cadena.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    function contarVocales(cadena) {
+        let vocales = "aeiouAEIOU";
+        let contador = 0;
+        for (let i = 0; i < cadena.length; i++) {
+            if (vocales.includes(cadena[i])) {
+                contador++;
+            }
+        }
+        return contador;
+    }
+
+    console.log(contarVocales("Hola, Mundo!"));
+    ```
+    </details>
+
+9. **Factorial de un número**: Escribe una función que calcule el factorial de un número.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    function factorial(n) {
+        if (n === 1) return 1;
+        return n * factorial(n - 1);
+    }
+
+    console.log(factorial(5));
+    ```
+    </details>
+
+14. **Fibonacci**: Escribe una función que genere los primeros n números de la secuencia de Fibonacci.
+    <details><summary>Ver posible respuesta</summary>
+    
+    ```javascript
+    function fibonacci(n) {
+        fib = [0, 1];
+        for (let i = 2; i < n; i++) {
+            fib[i] = fib[i - 1] + fib[i - 2];
+        }
+        return fib;
+    }
+
+    console.log(fibonacci(10));
+    ```
+    </details>
+
 
