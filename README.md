@@ -1,6 +1,6 @@
 # Pensamiento Computacional y Testing de Aplicaciones
 
-Bienvenidos al repositorio del curso **Pensamiento Computacional y Testing de Aplicaciones**. Este curso está diseñado para guiar a los estudiantes en el aprendizaje de Desarrollo Web con [HTML](src/HTML/), [CSS](src/CSS/), [JavaScript](src/JS/), y React, mientras desarrollan habilidades clave en pensamiento computacional y testing de aplicaciones. Además, aprenderán a utilizar herramientas esenciales como [Git](src/Git/) y [GitHub](src/GitHub/) para gestionar proyectos y colaborar de manera efectiva.
+Bienvenidos al repositorio del curso **Pensamiento Computacional y Testing de Aplicaciones**. Este curso está diseñado para guiar a los estudiantes en el aprendizaje de Desarrollo Web con [HTML](src/HTML/), [CSS](src/CSS/), [JavaScript](src/JavaScript/), y React, mientras desarrollan habilidades clave en pensamiento computacional y testing de aplicaciones. Además, aprenderán a utilizar herramientas esenciales como [Git](src/Git/) y [GitHub](src/GitHub/) para gestionar proyectos y colaborar de manera efectiva.
 
 ## Contenido del Curso
 
