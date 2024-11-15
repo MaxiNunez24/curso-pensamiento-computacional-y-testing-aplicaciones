@@ -3,24 +3,14 @@
 Bienvenidos al repositorio del curso **Pensamiento Computacional y Testing de Aplicaciones**. Este curso está diseñado para guiar a los estudiantes en el aprendizaje de Desarrollo Web con [HTML](src/HTML/), [CSS](src/CSS/), [JavaScript](src/JavaScript/), y React, mientras desarrollan habilidades clave en pensamiento computacional y testing de aplicaciones. Además, aprenderán a utilizar herramientas esenciales como [Git](src/Git/) y [GitHub](src/GitHub/) para gestionar proyectos y colaborar de manera efectiva.
 
 ## Navegar por el curso
-<details>
-   <summary><strong>HTML</strong></summary>
-   [Introducción a HTML](src/HTML/README.md)
-</details>
-<details>
-   <summary><strong>CSS</strong></summary>
-      [Introducción a CSS](src/CSS/README.md)
-      [Ejemplos de CSS](src/CSS/Ejemplos/README.md)
-      [Ejercicios de CSS](src/CSS/Ejercicios/README.md)
-      [Flexbox CSS](src/CSS/Flexbox/README.md)
-      [Grid CSS](src/CSS/Grid/README.md)
-   </ul>
-</details>
-<details>
-   <summary><strong>JavaScript</strong></summary>
-      [Introducción a JavaScript](src/JavaScript/IntroduccionJS)</li>
-      [Material adicional Introducción a JavaScript](src/JavaScript/MaterialAdicionalJS.md)</li>
-</details>
+   [Introducción a HTML](src/HTML/README.md)<br>
+   [Introducción a CSS](src/CSS/README.md)<br>
+         [Ejemplos de CSS](src/CSS/Ejemplos/README.md)<br>
+         [Ejercicios de CSS](src/CSS/Ejercicios/README.md)<br>
+         [Flexbox CSS](src/CSS/Flexbox/README.md)<br>
+         [Grid CSS](src/CSS/Grid/README.md)<br>
+   [Introducción a JavaScript](src/JavaScript/IntroduccionJS)<br>
+         [Material adicional Introducción a JavaScript](src/JavaScript/MaterialAdicionalJS.md)<br>
 
 ## Contenido del Curso
 
