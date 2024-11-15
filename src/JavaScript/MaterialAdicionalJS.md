@@ -1,4 +1,4 @@
-# Introducción a JavaScript
+# Material adicional Introducción a JavaScript
 
 ## ¿Qué es JavaScript?
 JavaScript es un lenguaje de programación interpretado, orientado a objetos y dinámico. Es uno de los lenguajes más populares y se utiliza principalmente para el desarrollo web, permitiendo crear páginas web interactivas. Se dice que es el "lenguaje de la web".
