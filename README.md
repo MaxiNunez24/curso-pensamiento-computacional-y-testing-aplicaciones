@@ -5,28 +5,21 @@ Bienvenidos al repositorio del curso **Pensamiento Computacional y Testing de Ap
 ## Navegar por el curso
 <details>
    <summary><strong>HTML</strong></summary>
-      <ul>
-         <li>
-            [Introducción a HTML](src/HTML/README.md)
-         </li>
-      </ul>
+   [Introducción a HTML](src/HTML/README.md)
 </details>
 <details>
    <summary><strong>CSS</strong></summary>
-   <ul>
-      <li>[Introducción a CSS](src/CSS/README.md)</li>
-      <li>[Ejemplos de CSS](src/CSS/Ejemplos/README.md)</li>
-      <li>[Ejercicios de CSS](src/CSS/Ejercicios/README.md)</li>
-      <li>[Flexbox CSS](src/CSS/Flexbox/README.md)</li>
-      <li>[Grid CSS](src/CSS/Grid/README.md)</li>
+      [Introducción a CSS](src/CSS/README.md)
+      [Ejemplos de CSS](src/CSS/Ejemplos/README.md)
+      [Ejercicios de CSS](src/CSS/Ejercicios/README.md)
+      [Flexbox CSS](src/CSS/Flexbox/README.md)
+      [Grid CSS](src/CSS/Grid/README.md)
    </ul>
 </details>
 <details>
    <summary><strong>JavaScript</strong></summary>
-   <ul>
-      <li>[Introducción a JavaScript](src/JavaScript/IntroduccionJS)</li>
-      <li>[Material adicional Introducción a JavaScript](src/JavaScript/MaterialAdicionalJS.md)</li>
-   </ul>
+      [Introducción a JavaScript](src/JavaScript/IntroduccionJS)</li>
+      [Material adicional Introducción a JavaScript](src/JavaScript/MaterialAdicionalJS.md)</li>
 </details>
 
 ## Contenido del Curso
