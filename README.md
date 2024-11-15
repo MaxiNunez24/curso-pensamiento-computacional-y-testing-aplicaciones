@@ -9,7 +9,7 @@ Bienvenidos al repositorio del curso **Pensamiento Computacional y Testing de Ap
          - [Ejercicios de CSS](src/CSS/Ejercicios/README.md)<br>
          - [Flexbox CSS](src/CSS/Flexbox/README.md)<br>
          - [Grid CSS](src/CSS/Grid/README.md)<br>
-   - [Introducción a JavaScript](src/JavaScript/IntroduccionJS)<br>
+   - [Introducción a JavaScript](src/JavaScript/IntroduccionJS.md)<br>
          - [Material adicional Introducción a JavaScript](src/JavaScript/MaterialAdicionalJS.md)<br>
 
 ## Contenido del Curso
