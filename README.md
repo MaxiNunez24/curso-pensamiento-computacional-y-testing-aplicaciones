@@ -4,20 +4,29 @@ Bienvenidos al repositorio del curso **Pensamiento Computacional y Testing de Ap
 
 ## Navegar por el curso
 <details>
-<summary><strong>HTML</strong></summary>
-   <ul>
-      <li><a href="src/HTML/README.md">Introducción a HTML</a></li>
-   <ul>
+   <summary><strong>HTML</strong></summary>
+      <ul>
+         <li>
+            <a href="src/HTML/README.md">Introducción a HTML</a>
+         </li>
+      </ul>
 </details>
 <details>
-<summary><strong>CSS</strong></summary>
+   <summary><strong>CSS</strong></summary>
    <ul>
       <li><a href="src/CSS/README.md">Introducción a CSS</a></li>
       <li><a href="src/CSS/Ejemplos/README.md">Ejemplos de CSS</a></li>
       <li><a href="src/CSS/Ejercicios/README.md">Ejercicios de CSS</a></li>
       <li><a href="src/CSS/Flexbox/README.md">Flexbox CSS</a></li>
       <li><a href="src/CSS/Grid/README.md">Grid CSS</a></li>
+   </ul>
+</details>
+<details>
+   <summary><strong>JavaScript</strong></summary>
    <ul>
+      <li><a href="src/JavaScript/IntroduccionJS">Introducción a JavaScript</a></li>
+      <li><a href="src/JavaScript/MaterialAdicionalJS.md">Material adicional Introducción a JavaScript</a></li>
+   </ul>
 </details>
 
 ## Contenido del Curso
